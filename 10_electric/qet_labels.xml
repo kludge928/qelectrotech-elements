@@ -355,7 +355,7 @@
     </category>
     <category name="johnson_controls">
       <category name="dx">
-        <category name="modules_extension"></category>
+        <category name="extension_modules"></category>
       </category>
     </category>
     <category name="jumo"></category>
@@ -363,13 +363,13 @@
       <category name="100_safety_light_curtain"></category>
     </category>
     <category name="knx">
-      <category name="actionneur"></category>
-      <category name="capteurs"></category>
-      <category name="divers"></category>
-      <category name="poussoirs"></category>
+      <category name="actuator"></category>
+      <category name="sensors"></category>
+      <category name="miscellaneous"></category>
+      <category name="push_buttons"></category>
       <category name="powersupplies"></category>
-      <category name="recepteurs"></category>
-      <category name="transmetteurs"></category>
+      <category name="receivers"></category>
+      <category name="transmitters"></category>
     </category>
     <category name="leroy_somer">
       <category name="20_frequency_drives"></category>
@@ -390,13 +390,13 @@
     <category name="omron">
       <category name="01_PLC_controllers">
         <category name="cj1">
-          <category name="taille1"></category>
-          <category name="taille2"></category>
+          <category name="size1"></category>
+          <category name="size2"></category>
         </category>
         <category name="cj2"></category>
         <category name="cqm1">
-          <category name="taille1"></category>
-          <category name="taille2"></category>
+          <category name="size1"></category>
+          <category name="size2"></category>
         </category>
       </category>
       <category name="03_relays"></category>
@@ -431,8 +431,8 @@
       <category name="01_PLC_controllers">
         <category name="241"></category>
         <category name="extension_tm3">
-          <category name="ana"></category>
-          <category name="tor"></category>
+          <category name="analog"></category>
+          <category name="digital"></category>
         </category>
         <category name="m221"></category>
         <category name="m251"></category>
@@ -445,7 +445,7 @@
           <category name="output"></category>
         </category>
         <category name="twido">
-          <category name="e-s_ana"></category>
+          <category name="io_analog"></category>
         </category>
         <category name="zelio"></category>
       </category>
@@ -455,17 +455,17 @@
       <category name="20_frequency_drives"></category>
       <category name="81_safety_switches"></category>
       <category name="90_TAC_Xenta">
-        <category name="boitier_mural"></category>
-        <category name="ecran"></category>
+        <category name="wall_enclosure"></category>
+        <category name="display"></category>
         <category name="module_ai"></category>
         <category name="module_ao"></category>
         <category name="module_di"></category>
-        <category name="module_repetiteur"></category>
-        <category name="module_serveur_web"></category>
+        <category name="repeater_module"></category>
+        <category name="web_server_module"></category>
         <category name="module_ui_ao"></category>
-        <category name="module_ui_tor"></category>
-        <category name="peripheriques"></category>
-        <category name="regulateurs"></category>
+        <category name="module_ui_digital"></category>
+        <category name="peripherals"></category>
+        <category name="regulators"></category>
       </category>
       <category name="99_assembly_plan"></category>
       <category name="preventa">
@@ -486,17 +486,17 @@
       <category name="01_PLC_controllers">
         <category name="6es5">
           <category name="6es5_95"></category>
-          <category name="carte_entree"></category>
-          <category name="carte_sortie"></category>
+          <category name="input_card"></category>
+          <category name="output_card"></category>
           <category name="cpu"></category>
         </category>
         <category name="6es7">
-          <category name="alimentations"></category>
-          <category name="cartes_ana_entree"></category>
-          <category name="cartes_ana_entree_sortie"></category>
-          <category name="cartes_ana_sortie"></category>
-          <category name="cartes_entree"></category>
-          <category name="cartes_sortie"></category>
+          <category name="power_supplies"></category>
+          <category name="analog_input_cards"></category>
+          <category name="analog_input_output_cards"></category>
+          <category name="analog_output_cards"></category>
+          <category name="input_cards"></category>
+          <category name="output_cards"></category>
         </category>
         <category name="6es7-1200">
           <category name="communication_cards"></category>
@@ -526,7 +526,7 @@
         <category name="sinumerik"></category>
       </category>
       <category name="02_human_machine_interface">
-        <category name="terminal_operateur"></category>
+        <category name="operator_terminal"></category>
       </category>
         <category name="05_bus_topology"></category>
       <category name="10_softstarter"></category>
